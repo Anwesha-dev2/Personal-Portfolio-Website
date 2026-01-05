@@ -1,0 +1,58 @@
+:root {
+  /* =========================
+     Brand Colors
+     ========================= */
+  --color-primary: #2B3375;
+  --color-accent: #A13ACA;
+  --color-highlight: #D487FD;
+
+  /* =========================
+     Backgrounds
+     ========================= */
+  --bg-main: linear-gradient(
+    135deg,
+    var(--color-primary),
+    var(--color-accent)
+  );
+  --bg-card: rgba(255, 255, 255, 0.05);
+  --bg-overlay: rgba(0, 0, 0, 0.35);
+
+  /* =========================
+     Text Colors
+     ========================= */
+  --text-main: #f3f3f3;
+  --text-light: #dcdcdc;
+  --text-muted: #b8b8b8;
+
+  /* =========================
+     Borders & Radius
+     ========================= */
+  --border-soft: rgba(255, 255, 255, 0.2);
+  --radius-sm: 6px;
+  --radius-md: 12px;
+
+  /* =========================
+     Shadows
+     ========================= */
+  --shadow-soft: 0 4px 12px rgba(0, 0, 0, 0.25);
+  --shadow-glow: 0 0 10px rgba(161, 58, 202, 0.6);
+
+  /* =========================
+     Typography
+     ========================= */
+  --font-heading: 'Poppins', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  /* =========================
+     Spacing
+     ========================= */
+  --gap-sm: 0.75rem;
+  --gap-md: 1.25rem;
+  --gap-lg: 2rem;
+
+  /* =========================
+     Motion
+     ========================= */
+  --transition-fast: 0.2s ease;
+  --transition: 0.3s ease;
+}
